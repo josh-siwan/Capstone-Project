@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Stock Investing Web App 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Web-App is a capstone project to fulfill the reuirements of the Software Engineering course provided by the Institute of Data. This project will explore investing in the stock market with an easy-to-use user interface and a MongoDb database for a user to update their stock portfolio.
 
-## Available Scripts
+## Purpose 
 
-In the project directory, you can run:
+With the recent cost-of-living crisis, individuals have been seeking new methods to attain a secondary income. While some individuals have opted for a secondary casual/part-time job the rise in stock-market investing has also risen.
 
-### `npm start`
+### Setup Instructions - Windows
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Install MongoDB onto computer if haven't already
+2. Download and unzip the  main branch onto your computer.
+3. Open folder using a code editor (Visual Studio Code is recommended)
+4. Open a terminal and run the following commands :
+   
+`cd backend`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`npm install`
 
-### `npm test`
+`npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. Open another terminal and run the following commands
+   
+`npm install`
 
-### `npm run build`
+`npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### How to Use the Stock Web-App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Enter a stock symbol (AMZN, MSFT, AAPL, etc) on the search bar before pressing enter or clicking on the search icon
+  - Company data will render onto screen
+  - Current stock information will render onto screen
+2. Press Buy
+  - Enter quantity of stock you would like to purchase (e.g. 3)
+  - Total Value will be automatically calculated and displayed on the Modal
+  - Press "Agree" or "Cancel" depending on choice
+3. View Portfolio
+  - Users Stock history will be displayed in a table format
+  - User has option to update portfolio through the "sell" or "buy" buttons
+4. Analytics Page
+  - This page contains a range of professional trading tools used by one of the biggest trading companies called TradingView.
+  - I've used their widgets to give the website a more professional user experience. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Future Improvements
+- Deployment into an AWS EC2 instance
+- Encryption/https
+- Caching
+- AI Stock Prediction
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
